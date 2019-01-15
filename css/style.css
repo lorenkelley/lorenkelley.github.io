@@ -186,6 +186,51 @@ body {
   #btn:hover::before {
     width: 240px;
   }
+
+  #btnTwo {
+    height: 60px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    transform: translate(-50, -50%);
+    border-radius: 3px;
+    font-family: Montserrat;
+    color: whitesmoke;
+    font-size: 17px;
+    letter-spacing: 3px;
+    z-index: 999;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  
+  #btnTwo::before {
+    content: '';
+    height: 65px;
+    width: 0px;
+    background-color: plum;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) skewX(-25deg);
+    z-index: -1;
+    transition: all .4s;
+  }
+  
+  #btnTwo:hover {
+    color: #2d2d2d;
+  }
+  
+  #btnTwo:hover::before {
+    width: 240px;
+  }
+  
+
   
   .img-1 {
     position: absolute;
@@ -285,16 +330,23 @@ select, textarea {
 
   /* ---Project Page--- */
   .containerproject{
-    border: solid whitesmoke;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    height: 100%;
-    width: 100%;
-    border: solid 10px whitesmoke;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  
   }
   .project{
-  border: solid whitesmoke;
+
+    /* margin-left: 250px;
+    width: 100%;
+    align-content: space-around; */
+    margin: 5px;
+    display: flex;
+    
+
   }
   
 
