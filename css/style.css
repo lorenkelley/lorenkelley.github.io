@@ -137,6 +137,13 @@ body {
     }
   }
   
+.bar{
+  background:linear-gradient(
+    #c8c7f5
+    , 
+    #fbc7d4)
+}
+
   #btn {
     height: 60px;
     width: 200px;
@@ -258,7 +265,24 @@ body {
   width: 100vw;
   border: solid 10px whitesmoke;
 }
-  
+/* label{
+  color: #b2b2b2;
+}  
+form input [text="text"],
+select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #222;
+  background: transparent;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #b2b2b2;
+} */
+
+
+
+
   /* ---Project Page--- */
   .containerproject{
     border: solid whitesmoke;
